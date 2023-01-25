@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" href="./img/logo.png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.15.1/devicon.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito&family=Playfair+Display&family=Yeseva+One&display=swap"" rel="stylesheet">
+    <link rel="stylesheet" href="./style.css">
+    <title>Anwar Jahid</title>
+</head>
+<body>
+    <nav>
+        <img class="logo" src="./img/logo.png" alt="">
+        <input type="checkbox"  id="menu-switch">
+        <label for="menu-switch" class="hamburger">
+            <section></section>
+            <section></section>
+            <section></section>
+        </label>
+        <div class="menu">
+            <button class="about"><span     class="highlight">01</span> About</button>
+            <button class="skills"><span    class="highlight">02</span> Skills</button>
+            <button class="projects"><span  class="highlight">03</span> Projects</button>
+            <button class="contact"><span  class="highlight">04</span> Contact</button>
+        </div>
+    </nav>
+    <div class="scrool-indicator">
+        <div class="circle"></div>
+        <div class="line"></div>
+        <div class="circle"></div>
+        <div class="line"></div>
+        <div class="circle"></div>
+        <div class="line"></div>
+        <div class="circle"></div>
+    </div>
+
+    <main>
+        <div class="about-section content" data-index="0">
+            <div class="img-wrapper">
+                <span><img src="./img/grayscalePortrait.png" alt=""></span>
+            </div>
+            <div class="about-wrapper">
+                    <h1>Hi, I am <span class="gradient-highlight">Anwar Jahid</span> </h1>
+                    <h3>I am a Full Stact Web Developer<br/> based in Brooklyn NY</h3>
+                    <a href="" target="_blank" class="link-btn">Resume <i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+            </div>
+        </div>
+
+        <div class="skills-section content" data-index="1">
+            <h2>My Skills</h2>
+            <div class="skills-wrapper">
+                <div class="card" data-position="0">
+                    <i class="devicon-html5-plain colored"></i>
+                    <p>HTML</p>
+                    <span class="fluid"> </span>
+                </div>
+                <div class="card" data-position="0">
+                    <i class="devicon-css3-plain colored"></i>
+                    <p>CSS</p>
+                    <span class="fluid"> </span>
+                </div>
+                <div class="card" data-position="0">
+                    <i class="devicon-javascript-plain colored text-shadow"></i>
+                    <p>JS</p>
+                    <span class="fluid"> </span>
+                </div>
+                <div class="card" data-position="0">
+                    <i class="devicon-react-original colored text-shadow"></i>
+                    <p>React</p>
+                    <span class="fluid"> </span>
+                </div>
+                <div class="card" >
+                    <i class="devicon-nodejs-plain colored text-shadow"></i>
+                    <p>NodeJS</p>
+                    <span class="fluid"> </span>
+                </div>
+                <div class="card" >
+                    <i class="devicon-django-plain text-shadow"></i>
+                    <p>DJANGO</p>
+                    <span class="fluid"> </span>
+                </div>
+                <div class="card" >
+                    <i class="devicon-postgresql-plain colored text-shadow"></i>
+                    <p>PosgreSQL</p>
+                    <span class="fluid"> </span>
+                </div>
+                <div class="card" >
+                    <i class="devicon-firebase-plain colored text-shadow"></i>
+                    <p>Firebase</p>
+                    <span class="fluid"> </span>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="projects-section content" data-index="2">
+            <h2>My Projects</h2>
+            <div class="project-wrapper">
+                <div class="prev btn"><i class="fa-solid fa-chevron-left"></i></div>
+                    <div class="project" data-position="0"> 
+                        <section class="fit-image" style="background-image:url('./img/stockTracker.png')">                                         
+                            <div class="project-info">
+                                <h3>Stock & Dividend Tracker</h3>
+                                <p>languages & Frameworks : <br/> HTML, CSS, JS, NODEJS & POSGRESQL</p>
+                                <p>Track your Stock Portfolio by simply adding stocks. Track Dividend Payments, Dividend Dates, Accumulated Dividends & Dividend Calander</p>
+                            </div> 
+                        </section>
+                        <div class="links">
+                            <a target="'_blank" href="https://github.com/Anwar720/Stock-Dividend-Tracker"> <i class="fa-brands fa-github"></i></a>
+                            <a target="'_blank" href="https://stock-dividend-tracker.herokuapp.com/"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                        </div>
+                    </div>
+                    <div class="project" data-position="0">
+                        <section class="fit-image" style="background-size:contain !important; background-image:url('./img/reactMessaging.png')">   
+                            <div class="project-info">
+                                <h3>React Messaging App</h3>
+                                <p>languages & Frameworks : <br/> REACT, CSS, JS, NODEJS, FIREBASE & SOCKETIO</p>
+                                <p>Messaging App with Real Time Chat</p>
+                            </div> 
+                        </section>
+                        <div class="links">
+                            <a target="'_blank" href="https://github.com/Anwar720/React-messaging-app"> <i class="fa-brands fa-github"></i></a>
+                        </div>
+                    </div>
+                    <div class="project" data-position="0"> 
+                        <section class="fit-image" style="background-image:url('./img/2FA.png')">
+                            <div class="project-info">
+                                <h3>Multifactor Authentication Login</h3>
+                                <p>languages & Frameworks : <br/> HTML, CSS, JS, NODEJS, MYSQL, BCRYPT, SPEAKEASY</p>
+                                <p>Create an Account with Email & Password, then set up Two Factor Authentication using an Authenticator App, required during login.</p>
+                            </div> 
+                        </section>
+                        <div class="links">
+                            <a target="_blank" href="https://github.com/Anwar720/2FA_Login"> <i class="fa-brands fa-github"></i></a>
+                        </div>
+                    </div>
+                    <div class="project" data-position="0"> 
+                        <section class="fit-image" style="background-size:contain !important;background-image:url('./img/steganalysisTool.png')">  
+                            <div class="project-info">
+                                <h3>Steganography & Steganalysis Tool</h3>
+                                <p>languages & Frameworks : <br/> HTML, CSS, JS, PYTHON, DJANGO</p>
+                                <p>Hide messages in an Image & also detect hidden messages.</p>
+                            </div> 
+                        </section>
+                        <div class="links">
+                            <a target="_blank" href="https://github.com/Anwar720/steganography-tool"> <i class="fa-brands fa-github"></i></a>
+                        </div>
+                    </div>
+                    <div class="project" data-position="0"> 
+                        <section class="fit-image" style="background-image:url('./img/memoryGame.png')">                                           
+                            <div class="project-info">
+                                <h3>Memory Game</h3>
+                                <p>languages & Frameworks : <br/> HTML, CSS, JS</p>
+                                <p>Test your memory by matching cards.</p>
+                            </div> 
+                        </section>
+                        <div class="links">
+                            <a href="https://github.com/Anwar720/Frontend/tree/main/memory-game"> <i class="fa-brands fa-github"></i></a>
+                        </div>
+                    </div>
+                    <div class="project" data-position="0"> 
+                        <section class="fit-image" style="background-image:url('./img/passwordGenerator.png')">                                    
+                            <div class="project-info">
+                                <h3>Password Generator</h3>
+                                <p>languages & Frameworks : <br/> HTML, CSS, JS</p>
+                                <p>Generate a secure password</p>
+                            </div> 
+                        </section>
+                        <div class="links">
+                            <a target="_blank" href="https://github.com/Anwar720/Password-Generator"> <i class="fa-brands fa-github"></i></a>
+                            <a target="_blank" href="https://anwar720.github.io/Password-Generator/"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                        </div>
+                    </div>
+                <div class="next btn"><i class="fa-solid fa-chevron-right"></i></div>
+            </div>
+
+        </div>
+        <div class="contact-section content" data-index="3">
+            <div class="contact-card">
+                <div class="card-left">
+                    <img src="./img/contact.png" width=400 alt="">
+                    <div class="socials">
+                        <a target="_blank" href="https://github.com/Anwar720"><i class="fa-brands fa-github"></i></a>
+                        <a target="_blank" href="https://www.linkedin.com/in/anwar-jahid-a52656217/"><i class="fa-brands fa-linkedin"></i></a>
+                    </div>
+                </div>
+
+                <form action="https://formspree.io/f/xpzknnge"method="POST">
+                    <h2>Contact Me!</h2>
+                        <input type="text" name="name" placeholder="Name" required>
+                        <input type="email" name="email" placeholder="Email" required>
+                        <textarea name="message" placeholder="Message"></textarea>
+                    <button type="submit" >Send</button>
+                </form>
+            </div>
+
+        </div>
+    </main>
+    <script src="./script.js"></script>
+</body>
+</html>
