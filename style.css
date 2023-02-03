@@ -206,6 +206,7 @@ main{
 }
 .link-btn{
     max-width: 35vw;
+    min-width: max-content;
 }
 .gradient-highlight{
     font-size: 3rem;
