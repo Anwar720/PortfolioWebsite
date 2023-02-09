@@ -153,7 +153,7 @@ main{
     /* box-shadow: 5px -5px 20px inset rgb(255, 138, 29),1px 1px 25px inset rgb(255, 39, 39), -5px -5px 30px inset var(--clr-secondary); */
     box-shadow: 0 0 45px  rgb(98, 97, 97);
     position:relative;
-    background: black;
+    background: var(--clr-primary-gradient);
 }
 .img-wrapper::before{
     content: '';
